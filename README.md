@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+# ☕ Aroma Coffee House
 
-## Project info
+A modern, responsive landing page for a premium artisan coffee shop, built with React and TypeScript. This project showcases a beautiful coffee shop website with smooth animations, elegant design, and a focus on user experience.
 
-**URL**: https://lovable.dev/projects/2a7512ee-64e8-4b5c-9407-ad4bfa1f893d
+![Coffee Shop Preview](./public/coffee-preview.png)
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- **Modern Design**: Clean, elegant interface with coffee-themed color palette
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Smooth Animations**: CSS animations and transitions for enhanced user experience
+- **Interactive Elements**: Hover effects, scroll animations, and interactive components
+- **Fast Performance**: Built with Vite for lightning-fast development and builds
+- **Type-Safe**: Full TypeScript support for better code quality
+- **Accessible**: Built with accessibility best practices in mind
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2a7512ee-64e8-4b5c-9407-ad4bfa1f893d) and start prompting.
+- **Frontend Framework**: React 18
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui (Radix UI primitives)
+- **Icons**: Lucide React
+- **State Management**: React hooks
+- **Routing**: React Router DOM
+- **Form Handling**: React Hook Form with Zod validation
+- **Charts**: Recharts (for potential analytics features)
+- **Theme**: next-themes for dark/light mode support
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (version 18 or higher)
+- npm or yarn package manager
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. **Clone the repository**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```bash
+   git clone https://github.com/your-username/CoffeeShop.git
+   cd CoffeeShop
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Install dependencies**
 
-# Step 3: Install the necessary dependencies.
-npm i
+   ```bash
+   npm install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:8080` to see the application running.
+
+### Build for Production
+
+```bash
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+The built files will be in the `dist` directory, ready for deployment.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Project Structure
 
-**Use GitHub Codespaces**
+```
+CoffeeShop/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable UI components
+│   │   ├── ui/            # shadcn/ui components
+│   │   └── ...            # Custom components
+│   ├── pages/             # Page components
+│   ├── hooks/             # Custom React hooks
+│   ├── lib/               # Utility functions
+│   ├── styles/            # Global styles
+│   └── main.tsx           # Application entry point
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── vite.config.ts          # Vite configuration
+├── package.json            # Dependencies and scripts
+└── README.md              # This file
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Design Features
 
-## What technologies are used for this project?
+- **Color Palette**: Warm coffee tones with cream accents
+- **Typography**: Playfair Display for headings, Inter for body text
+- **Animations**: Fade-in effects, hover transitions, and smooth scrolling
+- **Layout**: Modern grid and flexbox layouts
+- **Icons**: Consistent iconography throughout the interface
 
-This project is built with:
+## 📱 Responsive Design
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The application is fully responsive and optimized for:
 
-## How can I deploy this project?
+- Desktop computers (1200px+)
+- Tablets (768px - 1199px)
+- Mobile phones (320px - 767px)
 
-Simply open [Lovable](https://lovable.dev/projects/2a7512ee-64e8-4b5c-9407-ad4bfa1f893d) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Yes, you can!
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**Your Name**
+
+- Portfolio: [Your Portfolio URL]
+- LinkedIn: [Your LinkedIn URL]
+- Email: [your.email@example.com]
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern coffee shop websites
+- Icons provided by [Lucide](https://lucide.dev/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Built with [Lovable](https://lovable.dev/) - AI-powered development platform
+
+---
+
+_This project was created as part of a portfolio to showcase modern web development skills with React, TypeScript, and contemporary design principles._
